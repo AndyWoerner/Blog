@@ -1,0 +1,138 @@
+/* Global Style */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e8e9;
+    color: #232c33;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header Style */
+
+.page-header {
+    min-height: 25vh;
+    border-bottom: 1px solid black;
+    background-image: url("../img/header-image.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 2em;
+}
+
+header h1 {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 0px 0px 5px white;
+}
+
+/* Card Style */
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 7px rgb(77, 77, 77);
+}
+
+.card-title {
+    display: block;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.card-header-list {
+    display: block;
+    width: 100%;
+    list-style-type: none;
+    float: left;
+}
+
+a.author-link {
+    text-decoration: none;
+    color: blue
+}
+
+.card-time {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+
+.card-img {
+    max-width: 50%;
+    margin-right: 10px;
+}
+
+.blog-text {
+    text-align: justify;
+    padding-bottom: 2em;
+}
+
+.read-more {
+    float: right;
+    color: green;
+    text-decoration: none;
+    font-size: larger;
+    font-style: italic;
+
+}
+
+/* Navigation Style */
+
+.nav-ul {
+    list-style-type: none;
+    background-color: rgb(167, 167, 167);
+    overflow: hidden;
+    padding: 0;
+    font-family: sans-serif;
+    box-shadow: 0px 3px 7px rgb(77, 77, 77);
+}
+
+li {
+    width: 100%;
+    font-size: larger;
+    float: left;
+}
+
+a.nav-link {
+    display: block;
+    color: rgb(26, 26, 26);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+a.nav-link:hover:not(#active) {
+    background-color: black;
+    transition: color 1s, background-color 1s;
+    color: #fff;
+}
+
+#active {
+    background: green;
+    color: white;
+}
+
+.active:hover {
+    color: black;
+}
+
+/* Footer Style */
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+.social-link {
+    text-decoration: none;
+}
